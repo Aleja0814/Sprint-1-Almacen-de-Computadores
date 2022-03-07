@@ -1,0 +1,101 @@
+:root{
+    --color:rgb(9, 94, 128);
+    --letra:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HTML HOME{ */
+#home{
+    text-align: center;
+}
+header img{
+    width: 150px;
+margin-top: 10px;
+
+}
+.imagen{
+    width: 100px;
+    text-align: center;
+}
+table{
+    margin:auto;
+    border:3px solid var(--color);
+}
+table thead{
+    background-color: var(--color);
+    color: white;
+}
+tr td{
+    border: 2px solid var(--color);
+}
+footer .Inst{
+    width: 40px;
+}
+
+#incomprar{
+    font-size: 15px;
+}
+#incomprar:hover{
+    background-color: var(--color);
+}
+ main p{
+    font-size: 18px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* HTML COMPRAR{ */
+#compra{
+    text-align: center;
+    font-size: 20px;
+}
+
+#calcular{
+    font-size: 15px;
+}
+#calcular:hover{
+    background-color: var(--color);
+}
+#div_comprar{
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 15px;
+    border: 3px solid var(--color)
+}
+#div_comprar input{
+    font-family:var(--letra)
+}
+    #compra img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+#div_resumen{
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 15px;
+    border: 3px solid var(--color)
+}
+#incantidadPC{
+    text-align: center;
+    width: 10%;
+}
+/* HTML COMPRAR-ORDEN{ */
+#div_resumen input{
+    font-family:var(--letra);
+    text-align: center;
+}
+
+#div_resumen label{
+    font-size: 20px;
+    font-family: var(--letra);
+}
+
+#div_resumen h6{
+    font-size: 20px;
+    font-style:oblique;
+    color: var(--color); 
+}
+#volver{
+    font-size: 15px;
+}
+#volver:hover{
+    background-color: var(--color);
+}
